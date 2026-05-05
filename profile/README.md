@@ -2,12 +2,15 @@
   This file is the GitHub organization profile README for Cryptobasis.
   It must live at: github.com/cryptobasis-ai/.github/blob/main/profile/README.md
   GitHub displays this file at the top of the org page: github.com/cryptobasis-ai
+
+  Image paths are relative to THIS file (which is inside profile/),
+  so wordmark assets are referenced as assets/... not profile/assets/...
 -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="profile/assets/v21-outlined-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="profile/assets/v21-outlined.svg">
-  <img alt="cryptoBASIS" src="profile/assets/v21-outlined.svg" width="480">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/v21-outlined-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/v21-outlined.svg">
+  <img alt="cryptoBASIS" src="assets/v21-outlined.svg" width="480">
 </picture>
 
 ### Automated, intelligent cryptocurrency tax audit and reconciliation.
@@ -34,7 +37,7 @@ To request beta access or be notified at launch: [hello@cryptobasis.ai](mailto:h
 
 ### Security
 
-To report a security issue, please email [security@cryptobasis.ai](mailto:security@cryptobasis.ai). See [SECURITY.md](SECURITY.md) for our disclosure policy.
+To report a security issue, please email [security@cryptobasis.ai](mailto:security@cryptobasis.ai). See [SECURITY.md](../SECURITY.md) for our disclosure policy.
 
 ---
 
